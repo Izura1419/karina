@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300&family=Source+Code+Pro:wght@500&display=swap');
+*{
+  overflow: hidden;
+}
 html{
   width: 100vw;
   height: 100vh;
@@ -10,8 +13,6 @@ html{
   color: #fff;
 
   font-family: 'Roboto', sans-serif;
-
-  overflow: hidden;
 }
 nav{
   display: flex;
