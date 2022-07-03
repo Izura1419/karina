@@ -92,14 +92,11 @@ a{
   z-index: -1;
 }
 @media (max-width: 900px) {
-  /*h1{
-    margin: 0 -20%;
+  h1{
     width: 70vw;
-  }*/
-  nav{
-    transform: translate(-50%,-50%) rotate(90deg);
+    position: absolute;
   }
-  h1, img{
-    transform: rotate(-90deg);
+  .wrapper img{
+    margin: 20px;
   }
 }
